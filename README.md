@@ -1,1 +1,1 @@
-# Lightboiz.com
+# Lightboiz.github.io
