@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*background-color: lightgrey;*/
+
+}
+
+header{
+	text-align: center;
+	font-family: arial;
+	color: blue;
+	background: #B3B3B3;
+	font-size: 150%;
+	padding: 3px;
+
+}
+
+.menu{
+	float: left;
+	width: 1150px;
+	height: 1px;
+	padding: 2px;
+	
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+ul li{
+	margin-left: 20px;
+	margin-top: 1px;
+}
+	
+ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	transition: 0.4s ease-in-out;
+	font-weight: bold;
+}
+
+ul li a:hover{
+	color: blue;
+}
+
+.srch {
+	font-family: Arial;
+	font-size: 16px;
+	width: 450px;
+	height: 30px
+	background: transparent;
+	border: 1px solid blue;
+	margin-top: 7px;
+	color: blue;
+	font-weight: bold;
+	margin-left: 400px;
+	border-right: none;
+	font-size: 14px;
+	float: left;
+	padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+	/*font-family: Arial;
+	background: transparent;
+	border: 1px solid #ff7200;
+	margin-top: 7px;
+	color: #000;
+	border-right: none;
+	font-size: 16px;
+	margin-left: 350px;
+	margin-right: none;
+	padding: 12px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 500px;
+	height: 25px;*/
+.btn{
+	width: 100px;
+	height: 28px;
+	background: blue;
+	border: 2px solid blue;
+	margin-top: 7px;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+	/*width: 100px;
+	height: 25px;
+	background: #ff7200;
+	border: 1px solid #ff7200;
+	margin-top: 7px;
+	margin-left: none;
+	margin-right: none;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;*/
+
+.btn:focus{
+	outline: none;
+}
+
+.srch:focus{
+	outline: none;
+}
+
+.glass{
+	width: 20%;
+	float: left;
+	margin-left: 2px;
+	margin-right: 40px;
+	padding: 1px;
+}
+
+.glass img{
+	height: 300px;
+	width: 350px;
+	margin-left: 1px;
+}
+
+ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+}
+
+ol li {
+	list-style: none;
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+ol li a{
+	text-decoration: none;
+	transition: 0.4s ease-in-out;
+}
+
+ol li a:hover{
+	color: #fff;
+}
+
+footer{
+	background-color: grey;
+}
+
+/*ul li{
+	margin-left: 20px;
+	margin-top: 1px;
+}
+	
+ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	transition: 0.4s ease-in-out;
+	font-weight: bold;
+
+	footer {
+    display: block;
+}*/
